@@ -27,3 +27,11 @@ i work at ${company}
 i am getting ${salary}
 `);
 
+var name='anu';
+var name1="manu";
+var num2=20;
+var num3=50.5;
+console.log(typeof name);
+console.log(typeof name1);
+console.log(typeof num2);
+console.log(typeof num3);
