@@ -50,6 +50,16 @@ let[...akash]=str;//array destructuring//spread operator
 console.log(akash.toString());
 console.log(akash.join('-'));
 
+//concat array
+let array7=['java','pyhton'];
+let array8=['nodejs','angular','expressjs'];
+let concatarray=array7.concat(array8);
+console.log(concatarray);//es5
+let array9=['java','pyhton'];
+let array10=['nodejs','angular','expressjs'];
+let totalArray=[...array9, ...array10, 'akash', true];
+console.log(totalArray);
+
 
 //
 function test(){
