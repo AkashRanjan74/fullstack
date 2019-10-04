@@ -60,6 +60,11 @@ let array10=['nodejs','angular','expressjs'];
 let totalArray=[...array9, ...array10, 'akash', true];
 console.log(totalArray);
 
+//reverse a string
+var str1="akash";
+var str1Array=[...str2].reverse().join("");
+console.log(str1Array);
+
 
 //
 function test(){
